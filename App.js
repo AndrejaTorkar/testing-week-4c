@@ -171,7 +171,7 @@ const styles = StyleSheet.create({
     aspectRatio: 1,
     alignItems: "center",
     justifyContent: "center",
-    borderRadius: "15%",
+    borderRadius: 5,
     margin: "1%",
     shadowOffset: {
       width: 5, 
@@ -179,6 +179,7 @@ const styles = StyleSheet.create({
     },
     shadowColor: "black",
     shadowOpacity: 0.9,
+    elevation: 5,
   },
 
   fieldText: {
