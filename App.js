@@ -128,6 +128,7 @@ const styles = StyleSheet.create({
     },
     shadowColor: "black",
     shadowOpacity: 0.9,
+    elevation: 15,
   },
 
   secondaryButton: {
@@ -179,7 +180,7 @@ const styles = StyleSheet.create({
     },
     shadowColor: "black",
     shadowOpacity: 0.9,
-    elevation: 5,
+    elevation: 15,
   },
 
   fieldText: {
