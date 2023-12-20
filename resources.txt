@@ -1,0 +1,4 @@
+https://reactnative.dev/docs/dimensions
+https://docs.expo.dev/versions/latest/sdk/linear-gradient/
+https://colors.dopely.top/inside-colors/purple-color-palette-inspirations-with-names-hex-codes/
+https://stackoverflow.com/questions/57433489/creating-a-box-shadow-offset-without-additional-elements-or-double-box-shadows
