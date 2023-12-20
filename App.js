@@ -122,13 +122,15 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     borderRadius: 15,
+    // shaddow for iOS
     shadowOffset: {
       width: 5, 
       height: 5,
     },
     shadowColor: "black",
     shadowOpacity: 0.9,
-    elevation: 15,
+    // shaddow for Android
+    elevation: 10,
   },
 
   secondaryButton: {
@@ -174,13 +176,15 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     borderRadius: 5,
     margin: "1%",
+    // shaddow for iOS
     shadowOffset: {
       width: 5, 
       height: 5,
     },
     shadowColor: "black",
     shadowOpacity: 0.9,
-    elevation: 15,
+    // shaddow for Android
+    elevation: 10,
   },
 
   fieldText: {
