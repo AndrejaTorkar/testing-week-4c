@@ -9,16 +9,31 @@ Improvements:
 * all elements and text are responsive
 */
 
+// If the app seems broken when you run it, add a random comment in this code and save it a few times.
+// This might solve the problem. If the app looks broken in the Simulator, please use Snack.
+
+// Resources: 
+// https://reactnative.dev/docs/dimensions
+// https://docs.expo.dev/versions/latest/sdk/linear-gradient/
+// https://colors.dopely.top/inside-colors/purple-color-palette-inspirations-with-names-hex-codes/
+// https://stackoverflow.com/questions/57433489/creating-a-box-shadow-offset-without-additional-elements-or-double-box-shadows
+
+// From template start
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Dimensions } from 'react-native';
+// From template end
+
+// Resources: https://docs.expo.dev/versions/latest/sdk/linear-gradient/
 import { LinearGradient } from 'expo-linear-gradient';
 
+// aTorkar started writing code
 let fieldSize = Dimensions.get('window').width;
 let buttonSize = Dimensions.get('window').width
 
-
+// aTorkar finished writing code
 export default function App() {
   return (
+    // aTorkar started writing code
     <View style={styles.containerMain}>
       <View style={styles.containerEmpty}>
       </View>
@@ -92,6 +107,7 @@ export default function App() {
       </View>
       <StatusBar style="auto" />
     </View>
+    // aTorkar finished writing code
   );
 }
 
@@ -102,7 +118,8 @@ const styles = StyleSheet.create({
     direction: 'column',
     backgroundColor: 'white'
   },
-
+  // aTorkar started writing code
+  // Resources: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
   containerEmpty: {
     flex: 1,
     backgroundColor: "#916ECA",
@@ -191,4 +208,5 @@ const styles = StyleSheet.create({
     fontSize: fieldSize * 0.15,
     fontWeight: "bold"
   },
+  // aTorkar finished writing code
 });
